@@ -1,0 +1,17 @@
+Program Volume_Bola;
+uses crt;
+Var
+        r,volume:real;
+Begin
+clrscr;
+        writeln('Nama  : Azzah Marsa Amalia');
+        writeln('NIM   : 2310432014');
+        writeln('Shift : 1');
+        writeln();
+        writeln('PROGRAM MENGHITUNG VOLUME BOLA');
+        write('Jari-jari bola = ');
+        readln(r);
+        Volume:=4/3*3.14*r*r*r;
+        writeln('Volume bola ber-jari-jari ',r:3:2,' satuan adalah ',volume:3:2,' satuan kubik.');
+        readln;
+end.
